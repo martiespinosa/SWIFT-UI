@@ -11,7 +11,7 @@ struct Images: View {
     var body: some View {
         Image("elon")
             .resizable()
-            .scaledToFill()
+            .scaledToFill() // This and .aspectRatio(contentMode: .fill) are the same & .scaleToFit() and .aspectRatio(contentMode: .fit) are the same
             .frame(width: 300, height: 300)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
         
