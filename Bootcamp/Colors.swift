@@ -15,7 +15,7 @@ struct Colors: View {
             .shadow(color: Color.primary, radius: 10)
             
         RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-            .fill(Color(#colorLiteral(red: 0, green: 1, blue: 0.4, alpha: 1))) // OK, this shouldn't have to see that way, in theory it has to be a color window where you chose the color, but it doesn't working in this version
+            .fill(Color(#colorLiteral(red: 0, green: 1, blue: 0.4, alpha: 1))) // This shouldn't have to see that way, in theory it has to be a color window where you chose the color, but it doesn't working in this version
             .frame(width: 300, height: 200)
             .shadow(color: Color(#colorLiteral(red: 0, green: 1, blue: 0.4, alpha: 1)), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
         
