@@ -16,6 +16,7 @@
 		4137AB872B86AEB5003B8324 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137AB862B86AEB5003B8324 /* Gradients.swift */; };
 		4137AB892B86B4A8003B8324 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137AB882B86B4A8003B8324 /* Icons.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
+		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4137AB862B86AEB5003B8324 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		4137AB882B86B4A8003B8324 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4137AB822B867C9C003B8324 /* Shapes.swift */,
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
 				4137AB842B8698A5003B8324 /* Colors.swift */,
+				419B5B252B87EBFE00E59078 /* Frames.swift */,
 				419B5B232B87E1DD00E59078 /* Images.swift */,
 				4137AB862B86AEB5003B8324 /* Gradients.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 				4137AB872B86AEB5003B8324 /* Gradients.swift in Sources */,
 				4137AB892B86B4A8003B8324 /* Icons.swift in Sources */,
 				4137AB852B8698A5003B8324 /* Colors.swift in Sources */,
+				419B5B262B87EBFE00E59078 /* Frames.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 			);
