@@ -9,6 +9,29 @@ import SwiftUI
 
 struct HVZStacks: View {
     var body: some View {
+        
+    
+        // As we can see in the next example, we can do the same using ZStacks or Backgrounds & Overlays. For 1, 2 or 3 layers maybe is better using backfround and overlays, and for more layers maybe is better using ZStacks.
+        
+//        VStack(spacing: 50) {
+//            ZStack {
+//                Circle()
+//                    .frame(width: 100, height: 100)
+//                Text("1")
+//                    .font(.title)
+//                    .foregroundColor(.white)
+//            }
+//            
+//            Text("1")
+//                .font(.title)
+//                .foregroundColor(.white)
+//                .background(
+//                    Circle()
+//                        .frame(width: 100, height: 100)
+//                )
+//        }
+        
+        
 //        VStack {
 //            Circle()
 //                .fill(.red)
