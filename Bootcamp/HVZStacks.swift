@@ -8,152 +8,67 @@
 import SwiftUI
 
 struct HVZStacks: View {
-    var body: some View {
-        
     
-        // As we can see in the next example, we can do the same using ZStacks or Backgrounds & Overlays. For 1, 2 or 3 layers maybe is better using backfround and overlays, and for more layers maybe is better using ZStacks.
+    let name: String
+    let symbol: String
+    let shortDescription: String
+    let longDescription: String
+    let image: String
+    
+    var color1: Color
+    var color2: Color
+    
+    init(name: String, symbol: String, shortDescription: String, longDescription: String, image: String) {
+        self.name = name
+        self.symbol = symbol
+        self.shortDescription = shortDescription
+        self.longDescription = longDescription
+        self.image = image
         
-//        VStack(spacing: 50) {
-//            ZStack {
-//                Circle()
-//                    .frame(width: 100, height: 100)
-//                Text("1")
-//                    .font(.title)
-//                    .foregroundColor(.white)
-//            }
-//            
-//            Text("1")
-//                .font(.title)
-//                .foregroundColor(.white)
-//                .background(
-//                    Circle()
-//                        .frame(width: 100, height: 100)
-//                )
-//        }
-        
-        
-//        VStack {
-//            Circle()
-//                .fill(.red)
-//                .frame(width: 100, height: 100)
-//            
-//            Circle()
-//                .fill(.orange)
-//                .frame(width: 100, height: 100)
-//            
-//            Circle()
-//                .fill(.green)
-//                .frame(width: 100, height: 100)
-//        }
-        
-        
-//        VStack(alignment: .trailing, spacing: 0, content: {
-//            Rectangle()
-//                .fill(.red)
-//                .frame(width: 50, height: 50)
-//
-//            Rectangle()
-//                .fill(.orange)
-//                .frame(width: 100, height: 100)
-//
-//            Rectangle()
-//                .fill(.green)
-//                .frame(width: 150, height: 150)
-//        })
-        
-        
-//        HStack(alignment: .top, spacing: 0, content: {
-//            Rectangle()
-//                .fill(.red)
-//                .frame(width: 50, height: 50)
-//
-//            Rectangle()
-//                .fill(.orange)
-//                .frame(width: 100, height: 100)
-//
-//            Rectangle()
-//                .fill(.green)
-//                .frame(width: 150, height: 150)
-//        })
-        
-        
-//        ZStack(alignment: .bottomLeading) {
-//            Rectangle()
-//                .fill(.red)
-//                .frame(width: 150, height: 150)
-//            
-//            Rectangle()
-//                .fill(.orange)
-//                .frame(width: 100, height: 100)
-//            
-//            Rectangle()
-//                .fill(.green)
-//                .frame(width: 50, height: 50)
-//        }
-        
-        
-//        ZStack(alignment: .topLeading) {
-//            Rectangle()
-//                .fill(.yellow)
-//                .frame(width: 350, height: 650)
-//            
-//            VStack(alignment: .leading, spacing: 50) {
-//                Rectangle()
-//                    .fill(.red)
-//                    .frame(width: 100, height: 100)
-//                
-//                Rectangle()
-//                    .fill(.orange)
-//                    .frame(width: 300, height: 200)
-//                
-//                HStack(alignment: .bottom) {
-//                    Rectangle()
-//                        .fill(.green)
-//                        .frame(width: 50, height: 50)
-//                    
-//                    Rectangle()
-//                        .fill(.green)
-//                        .frame(width: 100, height: 100)
-//                    
-//                    Rectangle()
-//                        .fill(.green)
-//                        .frame(width: 50, height: 50)
-//                }
-//                .background(.white)
-//            }
-//            .background(.black)
-//        }
-        
+        if shortDescription.split(separator: " ").first == "Cantante" {
+            self.color1 = Color(red: 0.9843137255, green: 0.3607843137, blue: 0.4549019608)
+            self.color2 = Color(red: 0.9803921569, green: 0.1411764706, blue: 0.2352941176)
+        } else if shortDescription.split(separator: " ").first == "Artista" {
+            self.color1 = Color(red: 0.4549019608, green: 0.9843137255, blue: 0.3607843137)
+            self.color2 = Color(red: 0.2352941176, green: 0.9803921569, blue: 0.1411764706)
+        } else {
+            self.color1 = Color(red: 0.3607843137, green: 0.4549019608, blue: 0.9843137255)
+            self.color2 = Color(red: 0.1411764706, green: 0.2352941176, blue: 0.9803921569)
+        }
+    }
+    
+    var body: some View {
     
         VStack(alignment: .leading) {
             
             HStack {
-                Text("Usher")
-                    .textCase(.uppercase)
+                Text("\(name)")
                     .font(.largeTitle)
                     .bold()
-                Image(systemName: "music.mic")
+                Spacer()
+                Image(systemName: "\(symbol)")
                     .font(.title)
             }
             
-            Text("Cantante estadounidense")
+            Text("\(shortDescription)")
                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 15, trailing: 0))
                 .italic()
             
-            Text("Usher Raymond IV, más conocido como Usher, es un cantante, compositor y productor de música estadounidense.")
+            Text("\(longDescription)")
                 .font(.footnote)
             
-            Image("usher")
+            Image("\(image)")
                 .resizable()
+                .aspectRatio(contentMode: .fill)
                 .frame(width: 250, height: 250)
                 .cornerRadius(25)
         }
-        .padding(10)
+        .padding(15)
         .background(
             LinearGradient(
                 gradient: Gradient(colors: [
-                    Color(red: 0.9843137255, green: 0.3607843137, blue: 0.4549019608),
-                    Color(red: 0.9803921569, green: 0.1411764706, blue: 0.2352941176)
+                    color1,
+                    color2
                 ]),
                 startPoint: .top,
                 endPoint: .bottom
@@ -167,5 +82,25 @@ struct HVZStacks: View {
 }
 
 #Preview {
-    HVZStacks()
+    HVZStacks(
+        name: "Usher",
+        symbol: "music.mic",
+        shortDescription: "Cantante estadounidense",
+        longDescription: "Usher Raymond IV, más conocido como Usher, es un cantante, compositor y productor de música estadounidense.",
+        image: "usher")
+    
+//    HVZStacks(
+//        name: "Ilia Topuria",
+//        symbol: "trophy.fill",
+//        shortDescription: "Artista marcial mixto hispanogeorgiano",
+//        longDescription: "Ilia Topuria es un peleador de MMA georgiano y español que compite en la UFC, donde es el actual Campeón Mundial de Peso Pluma.",
+//        image: "ilia")
+    
+//    HVZStacks(
+//        name: "Javier Milei",
+//        symbol: "seal.fill",
+//        shortDescription: "Economista y político argentino",
+//        longDescription: "Javier Gerardo Milei es un economista, político y docente argentino, actual presidente de la Nación Argentina desde el 10 de diciembre de 2023 y líder del espacio político La Libertad Avanza.",
+//        image: "milei")
+    
 }
