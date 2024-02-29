@@ -20,7 +20,7 @@ struct ScrollViews: View {
                             ForEach(0..<5) { index in
                                 RoundedRectangle(cornerRadius: 25.0)
                                     .fill(colors[index])
-                                    .frame(width: 170, height: 170)
+                                    .frame(width: 150, height: 150)
                             }
                         }
                         .padding()
