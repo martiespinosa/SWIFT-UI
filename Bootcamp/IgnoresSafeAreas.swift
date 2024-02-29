@@ -26,7 +26,7 @@ struct IgnoresSafeAreas: View {
         }
         .background(
             Color.brown
-                //.ignoresSafeArea() // here it is not necessary i don't know why
+                //.ignoresSafeArea() // it seems like now backgrounds igores the safe area by default...
         )
     }
 }
