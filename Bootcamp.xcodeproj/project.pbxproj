@@ -19,6 +19,7 @@
 		4174E2902B8E7A3F00A53ECB /* ForEachs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E28F2B8E7A3F00A53ECB /* ForEachs.swift */; };
 		4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2912B8E8A2300A53ECB /* ScrollViews.swift */; };
 		4174E2952B8FE25900A53ECB /* Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2942B8FE25900A53ECB /* Grids.swift */; };
+		4174E2972B90D8CF00A53ECB /* IgnoresSafeAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -40,6 +41,7 @@
 		4174E28F2B8E7A3F00A53ECB /* ForEachs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachs.swift; sourceTree = "<group>"; };
 		4174E2912B8E8A2300A53ECB /* ScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViews.swift; sourceTree = "<group>"; };
 		4174E2942B8FE25900A53ECB /* Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids.swift; sourceTree = "<group>"; };
+		4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoresSafeAreas.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
 				4174E2912B8E8A2300A53ECB /* ScrollViews.swift */,
 				4137AB842B8698A5003B8324 /* Colors.swift */,
+				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
 				41B2C8942B8BBD93006DF12F /* Paddings.swift */,
 				419B5B252B87EBFE00E59078 /* Frames.swift */,
 				419B5B232B87E1DD00E59078 /* Images.swift */,
@@ -191,6 +194,7 @@
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,
 				419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */,
 				4174E2902B8E7A3F00A53ECB /* ForEachs.swift in Sources */,
+				4174E2972B90D8CF00A53ECB /* IgnoresSafeAreas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
