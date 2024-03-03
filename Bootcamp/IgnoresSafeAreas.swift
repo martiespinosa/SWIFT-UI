@@ -22,7 +22,7 @@ struct IgnoresSafeAreas: View {
                     
                     ForEach(0..<10) { index in
                         RoundedRectangle(cornerRadius: 25.0)
-                            .fill(.black.opacity(0.6))
+                            .fill(.blue.opacity(0.6))
                             .frame(height: 150)
                     }
                 }
