@@ -9,52 +9,49 @@ import SwiftUI
 
 struct Extracts: View {
     
-    @State var buttonSymbol: String = "heart.fill"
+    @State var currentIndex: Int = 0
+    @State var bg: Color = .red
     
     var body: some View {
-        someContent
-        
-        ButtonView(buttonSymbol: $buttonSymbol)
-    }
-    
-    var someContent: some View {
         VStack {
-            ForEach(0..<3) { index in
-                RoundedRectangle(cornerRadius: 25)
-                    .fill(.blue)
-                    .frame(width: 100, height: 100)
+            TrafficLightView(currentIndex: $currentIndex)
+            
+            Button("Change") {
+                if currentIndex <= 1 {
+                    currentIndex += 1
+                } else {
+                    currentIndex = 0
+                }
             }
         }
     }
 }
 
-struct ButtonView: View {
+
+struct TrafficLightView: View {
     
-    @Binding var buttonSymbol: String
+    @State var trafficLightColors: [Color] = [.red, .orange, .green]
+    @Binding var currentIndex: Int
     
     var body: some View {
-        Button(action: {
-            buttonSymbol = symbolLogic()
-        }, label: {
-            Circle()
-                .fill(.green)
-                .frame(width: 100, height: 100)
-                .overlay(
-                    Image(systemName: buttonSymbol)
-                        .font(.largeTitle)
-                        .foregroundColor(.primary)
-                )
-        })
-    }
-    
-    func symbolLogic() -> String {
-        if buttonSymbol == "heart.fill" {
-            return "star.fill"
-        } else {
-            return "heart.fill"
+        Spacer()
+        ForEach(0..<3) { index in
+            if index == currentIndex {
+                Circle()
+                    .fill(trafficLightColors[index].opacity(1))
+                    .frame(width: 100, height: 100)
+                    .shadow(color: trafficLightColors[index], radius: 10, x: 0.0, y: 0.0)
+            } else {
+                Circle()
+                    .fill(trafficLightColors[index].opacity(0.25))
+                    .frame(width: 100, height: 100)
+            }
         }
+        Spacer()
     }
 }
+
+
 
 #Preview {
     Extracts()
