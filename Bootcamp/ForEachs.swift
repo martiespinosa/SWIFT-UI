@@ -13,13 +13,13 @@ struct ForEachs: View {
     
     var body: some View {
         VStack {
-//            ForEach(0..<10) { index in
-//                Text("\(index): Hello, World!")
-//            }
-            
-            ForEach(fruits.indices) { index in
-                Text("\(fruits[index])")
+            ForEach(0..<10) { index in
+                Text("\(index): Hello, World!")
             }
+            
+//            ForEach(fruits.indices) { index in
+//                Text("\(fruits[index])")
+//            }
         }
     }
 }
