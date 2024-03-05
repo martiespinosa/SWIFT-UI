@@ -10,7 +10,6 @@ import SwiftUI
 struct Extracts: View {
     
     @State var currentIndex: Int = 0
-    @State var bg: Color = .red
     
     var body: some View {
         VStack {
