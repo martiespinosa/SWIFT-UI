@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct ProgressViews: View {
+    
+    @State var isLoading = false
+    @State var buttonText = "Start loading"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(buttonText) {
+            isLoading.toggle() // .togle switchs between true & false
+            if isLoading {
+                buttonText = "Stop loading"
+            } else {
+                buttonText = "Start loading"
+            }
+        }
+        
+        if isLoading {
+            ProgressView()
+        }
     }
 }
 
