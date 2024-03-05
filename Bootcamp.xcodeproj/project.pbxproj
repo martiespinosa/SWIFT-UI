@@ -24,6 +24,7 @@
 		4174E29D2B933BD100A53ECB /* Extracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E29C2B933BD100A53ECB /* Extracts.swift */; };
 		4174E29F2B938F7B00A53ECB /* GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E29E2B938F7B00A53ECB /* GameOne.swift */; };
 		4174E2A32B97D1A600A53ECB /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2A22B97D1A600A53ECB /* ProgressViews.swift */; };
+		4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2A42B97D4EA00A53ECB /* TernaryOperators.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -50,6 +51,7 @@
 		4174E29C2B933BD100A53ECB /* Extracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extracts.swift; sourceTree = "<group>"; };
 		4174E29E2B938F7B00A53ECB /* GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOne.swift; sourceTree = "<group>"; };
 		4174E2A22B97D1A600A53ECB /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
+		4174E2A42B97D4EA00A53ECB /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4137AB842B8698A5003B8324 /* Colors.swift */,
 				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
+				4174E2A42B97D4EA00A53ECB /* TernaryOperators.swift */,
 				4174E29E2B938F7B00A53ECB /* GameOne.swift */,
 				4174E2982B90E19700A53ECB /* Buttons.swift */,
 				4174E2A22B97D1A600A53ECB /* ProgressViews.swift */,
@@ -206,6 +209,7 @@
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
+				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,
 				419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */,
