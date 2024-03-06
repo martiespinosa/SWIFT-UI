@@ -13,10 +13,10 @@ struct Animations: View {
     
     var body: some View {
         Spacer()
-        RoundedRectangle(cornerRadius: isPressed ? 125 : 25)
-            .fill(isPressed ? .blue : .green)
+        RoundedRectangle(cornerRadius: 125)
+            .fill(.blue)
             .frame(width: 250, height: 250)
-            .offset(y: isPressed ? -200 : 0)
+            .offset(y: isPressed ? -200 : 180)
         Spacer()
         
         Button("Chage with animation") {
@@ -26,7 +26,7 @@ struct Animations: View {
         }
     }
 }
-
+	
 #Preview {
     Animations()
 }
