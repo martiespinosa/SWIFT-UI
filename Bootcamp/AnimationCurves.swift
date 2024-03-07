@@ -19,7 +19,7 @@ struct AnimationCurves: View {
             RoundedRectangle(cornerRadius: 25.0)
                 .fill(.blue)
                 .frame(width: isPressed ? 300 : 100, height: 100)
-                .overlay(Text(isPressed ? "linear" : "1").font(.title).fontWeight(.bold))
+                .overlay(Text(isPressed ? "spring" : "1").font(.title).fontWeight(.bold))
                 //.animation(.linear(duration: timing), value: isPressed)
                 .animation(.spring(
                     duration: timing,
