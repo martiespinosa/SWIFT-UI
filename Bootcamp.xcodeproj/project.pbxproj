@@ -30,6 +30,7 @@
 		4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AA2B99E0A900A53ECB /* Transitions.swift */; };
 		4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AC2B9B7A9600A53ECB /* Navigations.swift */; };
 		419459AC2B9C702A0040F316 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419459AB2B9C702A0040F316 /* Lists.swift */; };
+		419459AE2B9C9A300040F316 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419459AD2B9C9A300040F316 /* Alerts.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -62,6 +63,7 @@
 		4174E2AA2B99E0A900A53ECB /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
 		4174E2AC2B9B7A9600A53ECB /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
 		419459AB2B9C702A0040F316 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		419459AD2B9C9A300040F316 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4137AB842B8698A5003B8324 /* Colors.swift */,
 				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
+				419459AD2B9C9A300040F316 /* Alerts.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
 				4174E2A42B97D4EA00A53ECB /* TernaryOperators.swift */,
 				4174E2AC2B9B7A9600A53ECB /* Navigations.swift */,
@@ -225,6 +228,7 @@
 				4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
+				419459AE2B9C9A300040F316 /* Alerts.swift in Sources */,
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
