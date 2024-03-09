@@ -28,6 +28,7 @@
 		4174E2A72B97D9F000A53ECB /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2A62B97D9F000A53ECB /* Animations.swift */; };
 		4174E2A92B9921C100A53ECB /* AnimationCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2A82B9921C100A53ECB /* AnimationCurves.swift */; };
 		4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AA2B99E0A900A53ECB /* Transitions.swift */; };
+		4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AC2B9B7A9600A53ECB /* Navigations.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -58,6 +59,7 @@
 		4174E2A62B97D9F000A53ECB /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		4174E2A82B9921C100A53ECB /* AnimationCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurves.swift; sourceTree = "<group>"; };
 		4174E2AA2B99E0A900A53ECB /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		4174E2AC2B9B7A9600A53ECB /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
 				4174E2A42B97D4EA00A53ECB /* TernaryOperators.swift */,
+				4174E2AC2B9B7A9600A53ECB /* Navigations.swift */,
 				4174E2AA2B99E0A900A53ECB /* Transitions.swift */,
 				4174E29E2B938F7B00A53ECB /* GameOne.swift */,
 				4174E2982B90E19700A53ECB /* Buttons.swift */,
@@ -215,6 +218,7 @@
 				4174E2992B90E19700A53ECB /* Buttons.swift in Sources */,
 				4174E29D2B933BD100A53ECB /* Extracts.swift in Sources */,
 				419B5B262B87EBFE00E59078 /* Frames.swift in Sources */,
+				4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
