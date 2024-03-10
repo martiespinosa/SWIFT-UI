@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TextEditors: View {
     
-    @State var textEditorText: String = ""
+    @State var textEditorText: String = "This is the starting text"
     @State var savedText: String = ""
     
     var body: some View {
@@ -17,11 +17,8 @@ struct TextEditors: View {
             VStack {
                 TextEditor(text: $textEditorText)
                     .frame(height: 250)
-                    .foregroundStyle(.black.opacity(0.8))
-                    .scrollContentBackground(.hidden) // we cannot change the background color of 'TextEditor' directly, first we have to hide the default background using this code, then apply background.
-                    .padding()
-                    .background(.gray.opacity(0.5)) // To see this
-                    .clipShape(.rect(cornerRadii: .init(topLeading: 15, bottomLeading: 15, bottomTrailing: 15, topTrailing: 15))) // cornerRadius is deprecated.
+                    .colorMultiply(.gray.opacity(0.5))
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                 
                 Button(action: {
                     saveText()
