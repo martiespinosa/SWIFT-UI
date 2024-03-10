@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412430E62B855FC100D5FE9B /* BootcampApp.swift */; };
-		412430E92B855FC100D5FE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412430E82B855FC100D5FE9B /* ContentView.swift */; };
 		412430EB2B855FC200D5FE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412430EA2B855FC200D5FE9B /* Assets.xcassets */; };
 		412430EE2B855FC200D5FE9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412430ED2B855FC200D5FE9B /* Preview Assets.xcassets */; };
 		4137AB832B867C9C003B8324 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137AB822B867C9C003B8324 /* Shapes.swift */; };
@@ -39,12 +38,12 @@
 		41B2C8972B8BC07D006DF12F /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2C8962B8BC07D006DF12F /* Spacers.swift */; };
 		41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */; };
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
+		41E042A02B9E3BB600BCC768 /* textEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* textEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		412430E32B855FC100D5FE9B /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412430E62B855FC100D5FE9B /* BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampApp.swift; sourceTree = "<group>"; };
-		412430E82B855FC100D5FE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		412430EA2B855FC200D5FE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412430ED2B855FC200D5FE9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4137AB822B867C9C003B8324 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		41B2C8962B8BC07D006DF12F /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		41E0429F2B9E3BB600BCC768 /* textEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 		412430DA2B855FC100D5FE9B = {
 			isa = PBXGroup;
 			children = (
+				41E0429F2B9E3BB600BCC768 /* textEditor.swift */,
 				412430E62B855FC100D5FE9B /* BootcampApp.swift */,
 				412430E52B855FC100D5FE9B /* Bootcamp */,
 				412430E42B855FC100D5FE9B /* Products */,
@@ -109,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				41E0429D2B9E2F5400BCC768 /* TextFields.swift */,
-				412430E82B855FC100D5FE9B /* ContentView.swift */,
 				4137AB822B867C9C003B8324 /* Shapes.swift */,
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
 				4174E2912B8E8A2300A53ECB /* ScrollViews.swift */,
@@ -225,7 +225,6 @@
 				4174E2A32B97D1A600A53ECB /* ProgressViews.swift in Sources */,
 				41B2C8972B8BC07D006DF12F /* Spacers.swift in Sources */,
 				4174E29F2B938F7B00A53ECB /* GameOne.swift in Sources */,
-				412430E92B855FC100D5FE9B /* ContentView.swift in Sources */,
 				41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */,
 				41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */,
 				419459AC2B9C702A0040F316 /* Lists.swift in Sources */,
@@ -243,6 +242,7 @@
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
+				41E042A02B9E3BB600BCC768 /* textEditor.swift in Sources */,
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */,
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,
