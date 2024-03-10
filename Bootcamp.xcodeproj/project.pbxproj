@@ -38,7 +38,7 @@
 		41B2C8972B8BC07D006DF12F /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2C8962B8BC07D006DF12F /* Spacers.swift */; };
 		41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */; };
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
-		41E042A02B9E3BB600BCC768 /* textEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* textEditor.swift */; };
+		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +74,7 @@
 		41B2C8962B8BC07D006DF12F /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
-		41E0429F2B9E3BB600BCC768 /* textEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textEditor.swift; sourceTree = "<group>"; };
+		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,6 @@
 		412430DA2B855FC100D5FE9B = {
 			isa = PBXGroup;
 			children = (
-				41E0429F2B9E3BB600BCC768 /* textEditor.swift */,
 				412430E62B855FC100D5FE9B /* BootcampApp.swift */,
 				412430E52B855FC100D5FE9B /* Bootcamp */,
 				412430E42B855FC100D5FE9B /* Products */,
@@ -109,6 +108,7 @@
 		412430E52B855FC100D5FE9B /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				41E0429F2B9E3BB600BCC768 /* TextEditors.swift */,
 				41E0429D2B9E2F5400BCC768 /* TextFields.swift */,
 				4137AB822B867C9C003B8324 /* Shapes.swift */,
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
@@ -242,7 +242,7 @@
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
-				41E042A02B9E3BB600BCC768 /* textEditor.swift in Sources */,
+				41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */,
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */,
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,

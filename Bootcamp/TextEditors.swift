@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct textEditor: View {
+struct TextEditors: View {
     
     @State var textEditorText: String = ""
     @State var savedText: String = ""
@@ -52,5 +52,5 @@ struct textEditor: View {
 }
 
 #Preview {
-    textEditor()
+    TextEditors()
 }
