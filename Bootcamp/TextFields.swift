@@ -15,7 +15,6 @@ struct TextFields: View {
     var body: some View {
         NavigationView {
             VStack {
-                Spacer()
                 TextField("Enter your username", text: $textFieldText)
                     .padding()
                     .background(.gray.opacity(0.25))
@@ -36,11 +35,13 @@ struct TextFields: View {
                         .cornerRadius(15)
                         .font(.headline)
                 })
-                Spacer()
+                
                 Text(username)
                     .font(.title)
                     .bold()
-                Spacer()
+                    .foregroundColor(.blue)
+                    .padding()
+                    .padding(.vertical, 40)
             }
             .padding()
             .navigationTitle("Login")

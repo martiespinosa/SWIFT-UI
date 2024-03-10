@@ -91,7 +91,7 @@
 		412430DA2B855FC100D5FE9B = {
 			isa = PBXGroup;
 			children = (
-				41E0429D2B9E2F5400BCC768 /* TextFields.swift */,
+				412430E62B855FC100D5FE9B /* BootcampApp.swift */,
 				412430E52B855FC100D5FE9B /* Bootcamp */,
 				412430E42B855FC100D5FE9B /* Products */,
 			);
@@ -108,7 +108,7 @@
 		412430E52B855FC100D5FE9B /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				412430E62B855FC100D5FE9B /* BootcampApp.swift */,
+				41E0429D2B9E2F5400BCC768 /* TextFields.swift */,
 				412430E82B855FC100D5FE9B /* ContentView.swift */,
 				4137AB822B867C9C003B8324 /* Shapes.swift */,
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
