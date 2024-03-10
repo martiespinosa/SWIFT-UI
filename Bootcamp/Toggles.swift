@@ -27,9 +27,15 @@ struct Toggles: View {
         NavigationView {
             VStack {
                 ForEach(settingNames.indices, id: \.self) { index in
-                    Toggle(isOn: $toggles[index], label: {
-                        Text(settingNames[index])
-                    })
+                    RoundedRectangle(cornerRadius: 15)
+                        .fill(.gray.opacity(0.25))
+                        .frame(height: 45)
+                        .overlay(
+                            Toggle(isOn: $toggles[index], label: {
+                                Text(settingNames[index])
+                            })
+                            .padding()
+                        )
                 }
                 Spacer()
             }
