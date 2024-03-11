@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ColorPickers: View {
     
-    @State var backgroundColor: Color = .white
+    @State var backgroundColor: Color = .clear
     
     var body: some View {
         ZStack {
@@ -20,9 +20,9 @@ struct ColorPickers: View {
                         selection: $backgroundColor,
                         supportsOpacity: true)
                 .padding()
-                .background(.black.opacity(0.8))
+                .background(.secondary.opacity(0.8))
                 .cornerRadius(15)
-                .foregroundColor(.white.opacity(0.8))
+                .foregroundColor(.primary.opacity(0.8))
                 .font(.headline)
                 .padding()
         }
