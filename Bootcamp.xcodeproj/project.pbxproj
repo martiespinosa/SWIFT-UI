@@ -40,6 +40,7 @@
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
 		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
 		41E042A42B9E415300BCC768 /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E042A32B9E415300BCC768 /* Toggles.swift */; };
+		41E042A62B9F891400BCC768 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E042A52B9F891400BCC768 /* Pickers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
 		41E042A32B9E415300BCC768 /* Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggles.swift; sourceTree = "<group>"; };
+		41E042A52B9F891400BCC768 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				4174E2912B8E8A2300A53ECB /* ScrollViews.swift */,
 				4137AB842B8698A5003B8324 /* Colors.swift */,
 				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
+				41E042A52B9F891400BCC768 /* Pickers.swift */,
 				41E042A32B9E415300BCC768 /* Toggles.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				419459AD2B9C9A300040F316 /* Alerts.swift */,
@@ -249,6 +252,7 @@
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */,
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,
+				41E042A62B9F891400BCC768 /* Pickers.swift in Sources */,
 				419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */,
 				419459B22B9CD62C0040F316 /* ConfirmationDialogs.swift in Sources */,
 				41E042A42B9E415300BCC768 /* Toggles.swift in Sources */,
