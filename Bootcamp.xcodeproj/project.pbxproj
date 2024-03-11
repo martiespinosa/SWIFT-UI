@@ -41,6 +41,7 @@
 		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
 		41E042A42B9E415300BCC768 /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E042A32B9E415300BCC768 /* Toggles.swift */; };
 		41E042A62B9F891400BCC768 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E042A52B9F891400BCC768 /* Pickers.swift */; };
+		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
 		41E042A32B9E415300BCC768 /* Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggles.swift; sourceTree = "<group>"; };
 		41E042A52B9F891400BCC768 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				41E0429F2B9E3BB600BCC768 /* TextEditors.swift */,
 				41E0429D2B9E2F5400BCC768 /* TextFields.swift */,
+				41F791062B9F9DAF0074E648 /* ColorPickers.swift */,
 				4137AB822B867C9C003B8324 /* Shapes.swift */,
 				4137AB882B86B4A8003B8324 /* Icons.swift */,
 				4174E2912B8E8A2300A53ECB /* ScrollViews.swift */,
@@ -246,6 +249,7 @@
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				419459AE2B9C9A300040F316 /* Alerts.swift in Sources */,
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
+				41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
 				41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */,
