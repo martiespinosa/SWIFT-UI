@@ -43,6 +43,7 @@
 		41E042A62B9F891400BCC768 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E042A52B9F891400BCC768 /* Pickers.swift */; };
 		41F1ACA22BA0D1D600C58CAE /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA12BA0D1D600C58CAE /* DatePickers.swift */; };
 		41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA32BA0D67F00C58CAE /* Steppers.swift */; };
+		41F1ACA62BA0D9F000C58CAE /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA52BA0D9F000C58CAE /* Sliders.swift */; };
 		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		41E042A52B9F891400BCC768 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		41F1ACA12BA0D1D600C58CAE /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
 		41F1ACA32BA0D67F00C58CAE /* Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steppers.swift; sourceTree = "<group>"; };
+		41F1ACA52BA0D9F000C58CAE /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
 		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				4174E2912B8E8A2300A53ECB /* ScrollViews.swift */,
 				4137AB842B8698A5003B8324 /* Colors.swift */,
 				41F1ACA32BA0D67F00C58CAE /* Steppers.swift */,
+				41F1ACA52BA0D9F000C58CAE /* Sliders.swift */,
 				41F1ACA12BA0D1D600C58CAE /* DatePickers.swift */,
 				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
 				41E042A52B9F891400BCC768 /* Pickers.swift */,
@@ -246,6 +249,7 @@
 				4137AB872B86AEB5003B8324 /* Gradients.swift in Sources */,
 				4137AB892B86B4A8003B8324 /* Icons.swift in Sources */,
 				4137AB852B8698A5003B8324 /* Colors.swift in Sources */,
+				41F1ACA62BA0D9F000C58CAE /* Sliders.swift in Sources */,
 				41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */,
 				4174E2A92B9921C100A53ECB /* AnimationCurves.swift in Sources */,
 				4174E2992B90E19700A53ECB /* Buttons.swift in Sources */,
