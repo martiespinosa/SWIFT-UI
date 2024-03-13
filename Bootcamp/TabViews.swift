@@ -63,7 +63,7 @@ struct StartView: View {
                             LazyHStack {
                                 ForEach(0..<10) { indexX in
                                     RoundedRectangle(cornerRadius: 25.0)
-                                        .fill(.gray.opacity(0.6))
+                                        .fill(.gray.opacity(0.5))
                                         .frame(
                                             width: indexY % 5 == 0 ? UIScreen.main.bounds.width * 0.8 : UIScreen.main.bounds.width * 0.4,
                                             height: indexY % 10 == 0 ? UIScreen.main.bounds.width * 0.6 : UIScreen.main.bounds.width * 0.4
