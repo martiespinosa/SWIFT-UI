@@ -45,6 +45,7 @@
 		41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA32BA0D67F00C58CAE /* Steppers.swift */; };
 		41F1ACA62BA0D9F000C58CAE /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA52BA0D9F000C58CAE /* Sliders.swift */; };
 		41F1ACA82BA0E34400C58CAE /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA72BA0E34400C58CAE /* TabViews.swift */; };
+		41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */; };
 		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		41F1ACA32BA0D67F00C58CAE /* Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steppers.swift; sourceTree = "<group>"; };
 		41F1ACA52BA0D9F000C58CAE /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
 		41F1ACA72BA0E34400C58CAE /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApp.swift; sourceTree = "<group>"; };
 		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				4174E2962B90D8CF00A53ECB /* IgnoresSafeAreas.swift */,
 				41E042A52B9F891400BCC768 /* Pickers.swift */,
 				41E042A32B9E415300BCC768 /* Toggles.swift */,
+				41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				419459AD2B9C9A300040F316 /* Alerts.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
@@ -260,6 +263,7 @@
 				4174E29D2B933BD100A53ECB /* Extracts.swift in Sources */,
 				419B5B262B87EBFE00E59078 /* Frames.swift in Sources */,
 				4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */,
+				41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				419459AE2B9C9A300040F316 /* Alerts.swift in Sources */,
