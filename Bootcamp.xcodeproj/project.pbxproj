@@ -48,6 +48,7 @@
 		41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */; };
 		41F1ACAC2BA3B58C00C58CAE /* TapGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */; };
 		41F1ACAE2BA3B82900C58CAE /* OnAppears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */; };
+		41F1ACB02BA3BAA000C58CAE /* IfLetGuardLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */; };
 		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,7 @@
 		41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApp.swift; sourceTree = "<group>"; };
 		41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestures.swift; sourceTree = "<group>"; };
 		41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppears.swift; sourceTree = "<group>"; };
+		41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLet.swift; sourceTree = "<group>"; };
 		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 				41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */,
 				41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */,
 				41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */,
+				41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				419459AD2B9C9A300040F316 /* Alerts.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
@@ -265,6 +268,7 @@
 				4137AB892B86B4A8003B8324 /* Icons.swift in Sources */,
 				4137AB852B8698A5003B8324 /* Colors.swift in Sources */,
 				41F1ACA62BA0D9F000C58CAE /* Sliders.swift in Sources */,
+				41F1ACB02BA3BAA000C58CAE /* IfLetGuardLet.swift in Sources */,
 				41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */,
 				4174E2A92B9921C100A53ECB /* AnimationCurves.swift in Sources */,
 				4174E2992B90E19700A53ECB /* Buttons.swift in Sources */,
