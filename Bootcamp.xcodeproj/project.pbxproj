@@ -47,6 +47,7 @@
 		41F1ACA82BA0E34400C58CAE /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA72BA0E34400C58CAE /* TabViews.swift */; };
 		41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */; };
 		41F1ACAC2BA3B58C00C58CAE /* TapGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */; };
+		41F1ACAE2BA3B82900C58CAE /* OnAppears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */; };
 		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,7 @@
 		41F1ACA72BA0E34400C58CAE /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
 		41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApp.swift; sourceTree = "<group>"; };
 		41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestures.swift; sourceTree = "<group>"; };
+		41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppears.swift; sourceTree = "<group>"; };
 		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 				41E042A52B9F891400BCC768 /* Pickers.swift */,
 				41E042A32B9E415300BCC768 /* Toggles.swift */,
 				41F1ACA92BA23C9D00C58CAE /* TimeApp.swift */,
+				41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */,
 				41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				419459AD2B9C9A300040F316 /* Alerts.swift */,
@@ -251,6 +254,7 @@
 				419B5B242B87E1DD00E59078 /* Images.swift in Sources */,
 				4174E2A32B97D1A600A53ECB /* ProgressViews.swift in Sources */,
 				41B2C8972B8BC07D006DF12F /* Spacers.swift in Sources */,
+				41F1ACAE2BA3B82900C58CAE /* OnAppears.swift in Sources */,
 				41F1ACAC2BA3B58C00C58CAE /* TapGestures.swift in Sources */,
 				4174E29F2B938F7B00A53ECB /* GameOne.swift in Sources */,
 				41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */,
