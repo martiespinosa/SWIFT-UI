@@ -49,6 +49,7 @@
 		41F1ACAC2BA3B58C00C58CAE /* TapGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */; };
 		41F1ACAE2BA3B82900C58CAE /* OnAppears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */; };
 		41F1ACB02BA3BAA000C58CAE /* IfLetGuardLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */; };
+		41F1ACB22BA4E1B400C58CAE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1ACB12BA4E1B400C58CAE /* Models.swift */; };
 		41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F791062B9F9DAF0074E648 /* ColorPickers.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestures.swift; sourceTree = "<group>"; };
 		41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppears.swift; sourceTree = "<group>"; };
 		41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLet.swift; sourceTree = "<group>"; };
+		41F1ACB12BA4E1B400C58CAE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		41F791062B9F9DAF0074E648 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				41F1ACAD2BA3B82900C58CAE /* OnAppears.swift */,
 				41F1ACAB2BA3B58C00C58CAE /* TapGestures.swift */,
 				41F1ACAF2BA3BAA000C58CAE /* IfLetGuardLet.swift */,
+				41F1ACB12BA4E1B400C58CAE /* Models.swift */,
 				4174E2A62B97D9F000A53ECB /* Animations.swift */,
 				419459AD2B9C9A300040F316 /* Alerts.swift */,
 				4174E29C2B933BD100A53ECB /* Extracts.swift */,
@@ -281,6 +284,7 @@
 				419459AE2B9C9A300040F316 /* Alerts.swift in Sources */,
 				4174E2922B8E8A2300A53ECB /* ScrollViews.swift in Sources */,
 				41F791072B9F9DAF0074E648 /* ColorPickers.swift in Sources */,
+				41F1ACB22BA4E1B400C58CAE /* Models.swift in Sources */,
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
 				41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */,
