@@ -9,13 +9,13 @@ import SwiftUI
 
 struct TimeApp: View {
     
-    // MARK: PROPERTIES
+    // MARK: - PROPERTIES
     
     @State private var currentDate: Date = Date()
     @State private var showSeconds: Bool = true
     @State private var textColor: Color = .secondary
     
-    // MARK: BODY
+    // MARK: - BODY
     
     var body: some View {
         VStack {
@@ -53,7 +53,7 @@ struct TimeApp: View {
         }
     }
     
-    // MARK: FUNCTIONS
+    // MARK: - FUNCTIONS
     
     /// Changes the color with an animation.
     ///
@@ -83,7 +83,7 @@ struct TimeApp: View {
     }
 }
 
-// MARK: PREVIEW
+// MARK: - PREVIEW
 
 #Preview {
     TimeApp()
