@@ -29,6 +29,7 @@
 		4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AA2B99E0A900A53ECB /* Transitions.swift */; };
 		4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174E2AC2B9B7A9600A53ECB /* Navigations.swift */; };
 		4183C7A42BAA410C0002F8C2 /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4183C7A32BAA410C0002F8C2 /* ObservableObjects.swift */; };
+		4183C7A62BAB67E80002F8C2 /* EnvironmentObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4183C7A52BAB67E80002F8C2 /* EnvironmentObjects.swift */; };
 		419459AC2B9C702A0040F316 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419459AB2B9C702A0040F316 /* Lists.swift */; };
 		419459AE2B9C9A300040F316 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419459AD2B9C9A300040F316 /* Alerts.swift */; };
 		419459B22B9CD62C0040F316 /* ConfirmationDialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419459B12B9CD62C0040F316 /* ConfirmationDialogs.swift */; };
@@ -78,6 +79,7 @@
 		4174E2AA2B99E0A900A53ECB /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
 		4174E2AC2B9B7A9600A53ECB /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
 		4183C7A32BAA410C0002F8C2 /* ObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjects.swift; sourceTree = "<group>"; };
+		4183C7A52BAB67E80002F8C2 /* EnvironmentObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjects.swift; sourceTree = "<group>"; };
 		419459AB2B9C702A0040F316 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		419459AD2B9C9A300040F316 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		419459B12B9CD62C0040F316 /* ConfirmationDialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogs.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				419B5B232B87E1DD00E59078 /* Images.swift */,
 				4174E28F2B8E7A3F00A53ECB /* ForEachs.swift */,
 				4183C7A32BAA410C0002F8C2 /* ObservableObjects.swift */,
+				4183C7A52BAB67E80002F8C2 /* EnvironmentObjects.swift */,
 				4174E2942B8FE25900A53ECB /* Grids.swift */,
 				41B2C8962B8BC07D006DF12F /* Spacers.swift */,
 				414BF1302B8956CE00F3473C /* HVZStacks.swift */,
@@ -298,6 +301,7 @@
 				41E042A62B9F891400BCC768 /* Pickers.swift in Sources */,
 				41F1ACA22BA0D1D600C58CAE /* DatePickers.swift in Sources */,
 				419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */,
+				4183C7A62BAB67E80002F8C2 /* EnvironmentObjects.swift in Sources */,
 				419459B22B9CD62C0040F316 /* ConfirmationDialogs.swift in Sources */,
 				41E042A42B9E415300BCC768 /* Toggles.swift in Sources */,
 				4174E2902B8E7A3F00A53ECB /* ForEachs.swift in Sources */,
