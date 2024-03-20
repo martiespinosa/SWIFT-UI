@@ -33,9 +33,9 @@ struct IfLetGuardLet: View {
     }
     
     func loadData() {
-        if let userID = userID {
+        if let userID {
             isLoading = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                 displayText = "This is your ID: \(userID)"
                 isLoading = false
             }
@@ -45,7 +45,7 @@ struct IfLetGuardLet: View {
     }
     
     func loadData2() {
-        guard let userID = userID else {
+        guard let userID else {
             displayText = "Error:\nYou don't have user ID"
             return
         }
