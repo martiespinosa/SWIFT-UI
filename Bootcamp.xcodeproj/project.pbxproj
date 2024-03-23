@@ -39,6 +39,9 @@
 		41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2C8942B8BBD93006DF12F /* Paddings.swift */; };
 		41B2C8972B8BC07D006DF12F /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2C8962B8BC07D006DF12F /* Spacers.swift */; };
 		41B60FAC2BAB773900535749 /* AppStorages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FAB2BAB773900535749 /* AppStorages.swift */; };
+		41B60FAF2BACB35C00535749 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FAE2BACB35C00535749 /* IntroView.swift */; };
+		41B60FB12BACBADC00535749 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FB02BACBADC00535749 /* OnboardingView.swift */; };
+		41B60FB32BAF384D00535749 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FB22BAF384D00535749 /* ProfileView.swift */; };
 		41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */; };
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
 		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
@@ -90,6 +93,9 @@
 		41B2C8942B8BBD93006DF12F /* Paddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddings.swift; sourceTree = "<group>"; };
 		41B2C8962B8BC07D006DF12F /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		41B60FAB2BAB773900535749 /* AppStorages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorages.swift; sourceTree = "<group>"; };
+		41B60FAE2BACB35C00535749 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		41B60FB02BACBADC00535749 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		41B60FB22BAF384D00535749 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 				4183C7A32BAA410C0002F8C2 /* ObservableObjects.swift */,
 				4183C7A52BAB67E80002F8C2 /* EnvironmentObjects.swift */,
 				41B60FAB2BAB773900535749 /* AppStorages.swift */,
+				41B60FAD2BACB33500535749 /* OnboardingViews */,
 				4174E2942B8FE25900A53ECB /* Grids.swift */,
 				41B2C8962B8BC07D006DF12F /* Spacers.swift */,
 				414BF1302B8956CE00F3473C /* HVZStacks.swift */,
@@ -194,6 +201,16 @@
 				412430ED2B855FC200D5FE9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41B60FAD2BACB33500535749 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				41B60FAE2BACB35C00535749 /* IntroView.swift */,
+				41B60FB02BACBADC00535749 /* OnboardingView.swift */,
+				41B60FB22BAF384D00535749 /* ProfileView.swift */,
+			);
+			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +302,7 @@
 				41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */,
 				4174E2A92B9921C100A53ECB /* AnimationCurves.swift in Sources */,
 				4174E2992B90E19700A53ECB /* Buttons.swift in Sources */,
+				41B60FAF2BACB35C00535749 /* IntroView.swift in Sources */,
 				4174E29D2B933BD100A53ECB /* Extracts.swift in Sources */,
 				419B5B262B87EBFE00E59078 /* Frames.swift in Sources */,
 				4183C7A42BAA410C0002F8C2 /* ObservableObjects.swift in Sources */,
@@ -302,8 +320,10 @@
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */,
 				41B2C8952B8BBD93006DF12F /* Paddings.swift in Sources */,
+				41B60FB12BACBADC00535749 /* OnboardingView.swift in Sources */,
 				41E042A62B9F891400BCC768 /* Pickers.swift in Sources */,
 				41F1ACA22BA0D1D600C58CAE /* DatePickers.swift in Sources */,
+				41B60FB32BAF384D00535749 /* ProfileView.swift in Sources */,
 				419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */,
 				4183C7A62BAB67E80002F8C2 /* EnvironmentObjects.swift in Sources */,
 				419459B22B9CD62C0040F316 /* ConfirmationDialogs.swift in Sources */,
