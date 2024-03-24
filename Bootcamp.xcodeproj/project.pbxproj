@@ -48,6 +48,7 @@
 		41B60FBB2BAF96FB00535749 /* ListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */; };
 		41B60FBD2BB03EC900535749 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBC2BB03EC900535749 /* Badges.swift */; };
 		41B60FBF2BB0756800535749 /* SubmitLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBE2BB0756800535749 /* SubmitLabels.swift */; };
+		41B60FC12BB0793100535749 /* FocusStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FC02BB0793100535749 /* FocusStates.swift */; };
 		41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */; };
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
 		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
@@ -108,6 +109,7 @@
 		41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActions.swift; sourceTree = "<group>"; };
 		41B60FBC2BB03EC900535749 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
 		41B60FBE2BB0756800535749 /* SubmitLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitLabels.swift; sourceTree = "<group>"; };
+		41B60FC02BB0793100535749 /* FocusStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStates.swift; sourceTree = "<group>"; };
 		41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				41B60FB82BAF91DB00535749 /* ButtonModifiers.swift */,
 				41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */,
 				41B60FBC2BB03EC900535749 /* Badges.swift */,
+				41B60FC02BB0793100535749 /* FocusStates.swift */,
 				41B60FBE2BB0756800535749 /* SubmitLabels.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
 				412430EC2B855FC200D5FE9B /* Preview Content */,
@@ -328,6 +331,7 @@
 				4183C7A42BAA410C0002F8C2 /* ObservableObjects.swift in Sources */,
 				4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */,
 				41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */,
+				41B60FC12BB0793100535749 /* FocusStates.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				41B60FB52BAF4F4900535749 /* AsyncImages.swift in Sources */,
