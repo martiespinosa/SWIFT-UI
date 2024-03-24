@@ -47,6 +47,7 @@
 		41B60FB92BAF91DB00535749 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FB82BAF91DB00535749 /* ButtonModifiers.swift */; };
 		41B60FBB2BAF96FB00535749 /* ListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */; };
 		41B60FBD2BB03EC900535749 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBC2BB03EC900535749 /* Badges.swift */; };
+		41B60FBF2BB0756800535749 /* SubmitLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B60FBE2BB0756800535749 /* SubmitLabels.swift */; };
 		41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */; };
 		41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429D2B9E2F5400BCC768 /* TextFields.swift */; };
 		41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0429F2B9E3BB600BCC768 /* TextEditors.swift */; };
@@ -106,6 +107,7 @@
 		41B60FB82BAF91DB00535749 /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActions.swift; sourceTree = "<group>"; };
 		41B60FBC2BB03EC900535749 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		41B60FBE2BB0756800535749 /* SubmitLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitLabels.swift; sourceTree = "<group>"; };
 		41E0429B2B9E0CD700BCC768 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
 		41E0429D2B9E2F5400BCC768 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		41E0429F2B9E3BB600BCC768 /* TextEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditors.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				41B60FB82BAF91DB00535749 /* ButtonModifiers.swift */,
 				41B60FBA2BAF96FB00535749 /* ListSwipeActions.swift */,
 				41B60FBC2BB03EC900535749 /* Badges.swift */,
+				41B60FBE2BB0756800535749 /* SubmitLabels.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
 				412430EC2B855FC200D5FE9B /* Preview Content */,
 			);
@@ -309,6 +312,7 @@
 				41E0429E2B9E2F5400BCC768 /* TextFields.swift in Sources */,
 				41E0429C2B9E0CD700BCC768 /* ContextMenus.swift in Sources */,
 				419459AC2B9C702A0040F316 /* Lists.swift in Sources */,
+				41B60FBF2BB0756800535749 /* SubmitLabels.swift in Sources */,
 				41F1ACA82BA0E34400C58CAE /* TabViews.swift in Sources */,
 				4137AB872B86AEB5003B8324 /* Gradients.swift in Sources */,
 				4137AB892B86B4A8003B8324 /* Icons.swift in Sources */,
