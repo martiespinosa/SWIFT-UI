@@ -179,7 +179,7 @@ extension OnboardingView {
             
             TextField("Your name is...", text: $name)
                 .focused($nameIsFocused)
-                .submitLabel(.join)
+                .submitLabel(.done)
                 .font(.headline)
                 .foregroundStyle(.white)
                 .frame(height: 55)
