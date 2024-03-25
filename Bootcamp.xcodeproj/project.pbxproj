@@ -38,6 +38,7 @@
 		419523E72BB1B49E00B08BCA /* ResizableSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523E62BB1B49E00B08BCA /* ResizableSheets.swift */; };
 		419523E92BB1D4E900B08BCA /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523E82BB1D4E900B08BCA /* Groups.swift */; };
 		419523EB2BB1DA0000B08BCA /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523EA2BB1DA0000B08BCA /* Menus.swift */; };
+		419523ED2BB1DE4A00B08BCA /* Popovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523EC2BB1DE4A00B08BCA /* Popovers.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -104,6 +105,7 @@
 		419523E62BB1B49E00B08BCA /* ResizableSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheets.swift; sourceTree = "<group>"; };
 		419523E82BB1D4E900B08BCA /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
 		419523EA2BB1DA0000B08BCA /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		419523EC2BB1DE4A00B08BCA /* Popovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popovers.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				419523E62BB1B49E00B08BCA /* ResizableSheets.swift */,
 				419523E82BB1D4E900B08BCA /* Groups.swift */,
 				419523EA2BB1DA0000B08BCA /* Menus.swift */,
+				419523EC2BB1DE4A00B08BCA /* Popovers.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
 				412430EC2B855FC200D5FE9B /* Preview Content */,
 			);
@@ -342,6 +345,7 @@
 				419523E92BB1D4E900B08BCA /* Groups.swift in Sources */,
 				41F1ACA42BA0D67F00C58CAE /* Steppers.swift in Sources */,
 				4174E2A92B9921C100A53ECB /* AnimationCurves.swift in Sources */,
+				419523ED2BB1DE4A00B08BCA /* Popovers.swift in Sources */,
 				4174E2992B90E19700A53ECB /* Buttons.swift in Sources */,
 				41B60FAF2BACB35C00535749 /* IntroView.swift in Sources */,
 				4174E29D2B933BD100A53ECB /* Extracts.swift in Sources */,
