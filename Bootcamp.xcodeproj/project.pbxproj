@@ -44,6 +44,7 @@
 		419523F32BB3185C00B08BCA /* Grids2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F22BB3185C00B08BCA /* Grids2.swift */; };
 		419523F52BB31A3800B08BCA /* NavigationSplitViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */; };
 		419523F72BB3234C00B08BCA /* ContentUnavailableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F62BB3234C00B08BCA /* ContentUnavailableViews.swift */; };
+		419523F92BB335D900B08BCA /* ControlGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F82BB335D900B08BCA /* ControlGroups.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -116,6 +117,7 @@
 		419523F22BB3185C00B08BCA /* Grids2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids2.swift; sourceTree = "<group>"; };
 		419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViews.swift; sourceTree = "<group>"; };
 		419523F62BB3234C00B08BCA /* ContentUnavailableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViews.swift; sourceTree = "<group>"; };
+		419523F82BB335D900B08BCA /* ControlGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroups.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */,
 				419523F62BB3234C00B08BCA /* ContentUnavailableViews.swift */,
 				419523F22BB3185C00B08BCA /* Grids2.swift */,
+				419523F82BB335D900B08BCA /* ControlGroups.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
 				412430EC2B855FC200D5FE9B /* Preview Content */,
 			);
@@ -371,6 +374,7 @@
 				4174E2AD2B9B7A9600A53ECB /* Navigations.swift in Sources */,
 				41F1ACAA2BA23C9D00C58CAE /* TimeApp.swift in Sources */,
 				41B60FC12BB0793100535749 /* FocusStates.swift in Sources */,
+				419523F92BB335D900B08BCA /* ControlGroups.swift in Sources */,
 				412430E72B855FC100D5FE9B /* BootcampApp.swift in Sources */,
 				414BF1312B8956CE00F3473C /* HVZStacks.swift in Sources */,
 				41B60FB52BAF4F4900535749 /* AsyncImages.swift in Sources */,
