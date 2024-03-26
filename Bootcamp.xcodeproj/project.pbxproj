@@ -42,6 +42,7 @@
 		419523EF2BB2032100B08BCA /* AnyLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523EE2BB2032100B08BCA /* AnyLayouts.swift */; };
 		419523F12BB20F2800B08BCA /* ViewThatFitss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F02BB20F2800B08BCA /* ViewThatFitss.swift */; };
 		419523F32BB3185C00B08BCA /* Grids2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F22BB3185C00B08BCA /* Grids2.swift */; };
+		419523F52BB31A3800B08BCA /* NavigationSplitViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */; };
 		419B5B242B87E1DD00E59078 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B232B87E1DD00E59078 /* Images.swift */; };
 		419B5B262B87EBFE00E59078 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B252B87EBFE00E59078 /* Frames.swift */; };
 		419B5B282B89212E00E59078 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */; };
@@ -112,6 +113,7 @@
 		419523EE2BB2032100B08BCA /* AnyLayouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayouts.swift; sourceTree = "<group>"; };
 		419523F02BB20F2800B08BCA /* ViewThatFitss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitss.swift; sourceTree = "<group>"; };
 		419523F22BB3185C00B08BCA /* Grids2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids2.swift; sourceTree = "<group>"; };
+		419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViews.swift; sourceTree = "<group>"; };
 		419B5B232B87E1DD00E59078 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		419B5B252B87EBFE00E59078 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		419B5B272B89212E00E59078 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				419523EC2BB1DE4A00B08BCA /* Popovers.swift */,
 				419523EE2BB2032100B08BCA /* AnyLayouts.swift */,
 				419523F02BB20F2800B08BCA /* ViewThatFitss.swift */,
+				419523F42BB31A3800B08BCA /* NavigationSplitViews.swift */,
 				419523F22BB3185C00B08BCA /* Grids2.swift */,
 				412430EA2B855FC200D5FE9B /* Assets.xcassets */,
 				412430EC2B855FC200D5FE9B /* Preview Content */,
@@ -375,6 +378,7 @@
 				4174E2952B8FE25900A53ECB /* Grids.swift in Sources */,
 				4174E2A52B97D4EA00A53ECB /* TernaryOperators.swift in Sources */,
 				41E042A02B9E3BB600BCC768 /* TextEditors.swift in Sources */,
+				419523F52BB31A3800B08BCA /* NavigationSplitViews.swift in Sources */,
 				4137AB832B867C9C003B8324 /* Shapes.swift in Sources */,
 				4174E2AB2B99E0A900A53ECB /* Transitions.swift in Sources */,
 				419523EF2BB2032100B08BCA /* AnyLayouts.swift in Sources */,
